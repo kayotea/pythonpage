@@ -1,0 +1,59 @@
+/* stylesheet for pythonpage.html */
+
+#wrapper{
+    background-color: lightblue;
+    margin: 0 auto;
+    height: 900px;
+    width: 900px;
+}
+
+/*up top*/
+#header{
+    background-color: lightslategray;
+    height: 100px;
+    width: 900px;
+}
+#navbar{
+    background-color: lightseagreen;
+    height: 100px;
+    width: 900px;
+}
+
+/* content ahoy*/
+#overview{
+    background-color: lightyellow;
+    height: 300px;
+    width: 900px;
+}
+#sidebar{
+    background-color: lightsalmon;
+    height: 200px;
+    width: 350px;
+
+    display: inline-block;
+}
+#about{
+    background-color: lightcoral;
+    height: 200px;
+    width: 500px;
+
+    display: inline-block;
+}
+
+#lowerbar{
+    background-color: lightgreen;
+    height: 300px;
+    width: 900px;
+}
+.details{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+
+    display: inline-block;
+}
+
+/*down under*/
+#footer{
+
+}
