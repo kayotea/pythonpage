@@ -1,59 +1,247 @@
 /* stylesheet for pythonpage.html */
 
+/*colors used:
+    yellow: #fed801
+    white: white
+    blue link: #6fa9d9
+    blue bar: #68a5d7
+    go button: #174f78
+    footer: #7ab6e5
+    top area: #174f78
+    nav bar: #3179af
+    nav bar shadow: #1e2327
+    search bar: #444444
+    search bar shadow: #272727
+*/
+
 #wrapper{
-    background-color: lightblue;
     margin: 0 auto;
-    height: 900px;
+    height: 863px;
     width: 900px;
+}
+#topwrap{
+    background-color: #174f78;
 }
 
 /*up top*/
+
 #header{
-    background-color: lightslategray;
     height: 100px;
     width: 900px;
 }
-#navbar{
-    background-color: lightseagreen;
+img#logo{
     height: 100px;
-    width: 900px;
+    display: inline-block;
+    margin-right: 280px;
+}
+a.top{
+    color: #fed801;
+}
+/*^search bar^*/
+#searchwrap{
+    height: 100px;
+    width: 250px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+#searchbar{
+    background-color: #444444;
+    box-shadow: 2px 2px 1px #272727;
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+    padding: 10px, 20px;
+    margin: 5px 0px;
+}
+form.search{
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding: 15px;
+}
+#search{
+    height: 25px;
+    width: 150px;
+}
+button.go{
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #174f78;
+    color: white;
+    
+}
+p.toggle{
+    margin: 10px 0px 0px 0px;
+    font-size: 80%;
+    color: white;
+}
+/*^^*/
+
+#navbar{
+    background-color: #3179af;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #1e2327;
+    margin: auto;
+    height: 52px;
+    width: 800px;
+}
+li.navbar {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+
+    color: white;
+    font-size: 120%;
+}
+ul.nav{
+    padding: 0px;
 }
 
 /* content ahoy*/
 #overview{
-    background-color: lightyellow;
-    height: 300px;
+    height: 350px;
     width: 900px;
 }
+
+/**%format for sidebar%**/
 #sidebar{
-    background-color: lightsalmon;
-    height: 200px;
-    width: 350px;
+    height: 350px;
+    width: 250px;
 
     display: inline-block;
+    vertical-align: top;
 }
+ul.sidebarlst{
+    list-style-type: none;
+    text-decoration: underline;
+    margin-top: 30px;
+
+    color: white;
+    font-size: 100%;
+}
+p.dot{
+    text-decoration: none;
+    color: #fed801;
+    font-size: 50%;
+
+    display: inline-block;
+    vertical-align: middle;
+    margin: 8px;
+}
+/**%%**/
+
+/**~ format for about section~**/
 #about{
-    background-color: lightcoral;
-    height: 200px;
-    width: 500px;
+    height: 350px;
+    width: 600px;
 
     display: inline-block;
+    vertical-align: top;
 }
+.about-txt{
+    font-size: 90%;
+    color: white;
+}
+.zen{
+    font-size: 110%;
+    font-style: italic;
+    color: #fed801;
+}
+.last {
+    font-size: 100%;
+    font-style: none;
+    color: white;
+}
+/**~~**/
 
+/**!format lower bar!**/
 #lowerbar{
-    background-color: lightgreen;
-    height: 300px;
+    background-color: white;
+    border-top: 2px solid black;
+    height: 240px;
     width: 900px;
 }
 .details{
-    background-color: white;
-    height: 200px;
-    width: 400px;
+    height: 240px;
+    width: 350px;
+    margin: 0px 40px;
+    padding: 0px;
 
+    vertical-align: top;
     display: inline-block;
 }
+p.bar{
+    background-color: #68a5d7;
+    height: 5px;
+    width: 380px;
+    margin: 10px;
+    overflow: visible;
+}
+h4.title{
+    margin: 0px;
+    font-weight: 400;
+    color: black;
+    vertical-align: top;
+}
+p.content{
+    font-size: 90%;
+    font-weight: 300;
+    color: black;
+    vertical-align: top;
+
+    padding: 0px 30px;
+    margin-bottom: 0;
+}
+ul.lowbarlst{
+    margin: 0px;
+}
+a.bullet{
+    font-size: 90%;
+    font-weight: 300;
+    padding: 0px 30px;
+
+    text-decoration: none;
+    color: #6fa9d9
+}
+/**!!**/
 
 /*down under*/
 #footer{
+    background: linear-gradient(#174f78, #1f70ac);
+    height: 75px;
+    width: 900px;
+    vertical-align: top;
+    margin: 0px;
+    display: inline-block;
+    padding: 10px 0px;
+}
+li.foot{
+    display: inline-block;
+    margin: 20px 10px 0px 10px;
+    
+    color: #7ab6e5;
+}
+p.copyright{
+    font-size: 70%;
+    color: #7ab6e5;
+}
 
+/*general*/
+/*align item in center*/
+.center{
+    text-align: center;
+}
+/*font for the whole page*/
+.font{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+span{
+    color: black;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
 }

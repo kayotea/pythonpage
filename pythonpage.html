@@ -6,25 +6,91 @@
         <link rel="stylesheet" type="text/css" href="pythonpage.css" />
     </head>
     <body>
-        <div id="wrapper">
+        <div id="wrapper" class="center">
             <!-- up top -->
-            <div id="header"></div>
-            <div id="navbar"></div>
+            <div id="topwrap">
+            <div id="header" class="left">
+                <img src="python.png" id="logo" alt="python logo" />
+                <div id="searchwrap" class="left">
+                    <p class="toggle font right">Text Size: <a href="#" class="top">Normal</a><span> |</span> <a href="#" class="top">Large</a></p>
+                    <div id="searchbar">
+                        <form class="search center">
+                            <input type="text" id="search" name="search" placeholder="Search" class="center" />
+                            <button class="go font">Go</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="navbar">
+                <ul class="nav font">
+                    <li class="navbar">About</li>
+                    <li class="navbar">Downloads</li>
+                    <li class="navbar">Documentation</li>
+                    <li class="navbar">Community</li>
+                    <li class="navbar">News</li>
+                    <li class="navbar">Events</li>
+                </ul>
+            </div>
 
             <!-- content ahoy -->
             <div id="overview">
-                <div id="sidebar"></div>
-                <div id="about"></div>
+                <div id="sidebar">
+                    <ul class="sidebarlst font">
+                        <li><a href="#"></a><p class="dot">>></p>Docs</li>
+                        <li><a href="#"></a><p class="dot">>></p>Audio/Visual Talks</li>
+                        <li><a href="#"></a><p class="dot">>></p>Beginner's Guide</li>
+                        <li><a href="#"></a><p class="dot">>></p>Developer's Guide</li>
+                        <li><a href="#"></a><p class="dot">>></p>PEP Index</li>
+                        <li><a href="#"></a><p class="dot">>></p>Python Books</li>
+                        <li><a href="#"></a><p class="dot">>></p>FAQ</li>
+                    </ul>
+                </div>
+                <div id="about">
+                    <p class="about-txt font">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications, python is not only a great language for new programmers but also powerful enough for seasoned developers building whatever they can think of.</p>
+                    <p class="zen font">Beautiful is better than ugly;</p>
+                    <p class="zen font">Explicit is better than implicit;</p>
+                    <p class="zen font">Simple is better than complex;</p>
+                    <p class="zen font">Complex is better than complicated;</p>
+                    <p class="zen font">Readability counts;</p>
+                    <p class="last font">The Zen of Python</p>
+                </div>
             </div>
-            <div>
+            </div>
 
             <div id="lowerbar">
-                <div class="details"></div>
-                <div class="details"></div>
+                <div class="details">
+                    <p class="bar"></p>
+                    <h4 class="title font">Getting Started</h4>
+                    <p class="content font">Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!</p>
+                    <ul class="lowbarlst font">
+                        <li class="center"><a href="#" class="bullet">Beginner's Guide, Programmers</a></li>
+                        <li><a href="#" class="bullet">Beginner's Guide, Non-Programmers</a></li>
+                        <li><a href="#" class="bullet">Code sample and snippets for Beginners</a></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <p class="bar"></p>
+                    <h4 class="title font">Applications</h4>
+                    <p class="content font">The <a href="#" class="bullet">Python package Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities.</p>
+                    <ul class="lowbarlst font">
+                        <li class="center"><a href="#" class="bullet">Web and Internet Development</a></li>
+                        <li class="center"><a href="#" class="bullet">Database Access</a></li>
+                        <li class="center"><a href="#" class="bullet">Desktop GUIs</a></li>
+                        <li class="center"><a href="#" class="bullet">Network Programming</a></li>
+                        <li class="center"><a href="#" class="bullet">Software and Game Development</a></li>
+                    </ul>
+                </div>
             </div>
 
             <!-- down under -->
-            <div id="footer"></div>
+            <div id="footer">
+                <ul class="font">
+                    <li class="foot">Help and General Contact</li>
+                    <li class="foot">Diversity Initiatives</li>
+                    <li class="foot">Submit Website Bugs</li>
+                </ul>
+                <p class="copyright font">Copyright &#169 2001-2016.</p>
+            </div>
         </div><!-- end of wrapper -->
     </body>
 </html>
